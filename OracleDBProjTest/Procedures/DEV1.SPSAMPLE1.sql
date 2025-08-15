@@ -7,10 +7,8 @@ CREATE OR REPLACE PROCEDURE "DEV1"."SPSAMPLE1" AS
 
 BEGIN
   Variable1 := 1;
-  Variable2 := 'A string value';
-  IF Variable1 = 1 THEN
-    RETURN;
-  END IF;
+  Variable2 := 'A string value. Added text.';
   Variable3 := Variable2;
+  Variable4 := Variable1;
   
 END;
