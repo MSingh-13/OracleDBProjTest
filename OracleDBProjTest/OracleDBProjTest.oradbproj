@@ -57,7 +57,13 @@
     <DBRefs Include="Database References\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Indexes\DEV1.TABLE2.Index.TABLE2_COLUMN3.sql">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Procedures\DEV1.SPSAMPLE1.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sequences\DEV1.ISEQ%24%24_75825.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Tables\Relational Tables\DEV1.TABLE1.sql">
